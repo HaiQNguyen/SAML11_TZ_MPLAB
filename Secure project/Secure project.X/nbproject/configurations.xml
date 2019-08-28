@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="Config" displayName="Config" projectFiles="true">
+        <itemPath>../Config/hpl_dmac_config.h</itemPath>
+        <itemPath>../Config/hpl_gclk_config.h</itemPath>
+        <itemPath>../Config/hpl_mclk_config.h</itemPath>
+        <itemPath>../Config/hpl_osc32kctrl_config.h</itemPath>
+        <itemPath>../Config/hpl_oscctrl_config.h</itemPath>
+        <itemPath>../Config/hpl_port_config.h</itemPath>
+        <itemPath>../Config/hpl_sercom_config.h</itemPath>
+        <itemPath>../Config/peripheral_clk_config.h</itemPath>
+        <itemPath>../Config/RTE_Components.h</itemPath>
+        <itemPath>../Config/stdio_redirect_config.h</itemPath>
+        <itemPath>../Config/trustzone_config.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="examples" displayName="examples" projectFiles="true">
+        <itemPath>../examples/driver_examples.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="hal" displayName="hal" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../hal/include/hal_atomic.h</itemPath>
+          <itemPath>../hal/include/hal_delay.h</itemPath>
+          <itemPath>../hal/include/hal_gpio.h</itemPath>
+          <itemPath>../hal/include/hal_i2c_m_sync.h</itemPath>
+          <itemPath>../hal/include/hal_init.h</itemPath>
+          <itemPath>../hal/include/hal_io.h</itemPath>
+          <itemPath>../hal/include/hal_sleep.h</itemPath>
+          <itemPath>../hal/include/hal_usart_sync.h</itemPath>
+          <itemPath>../hal/include/hpl_core.h</itemPath>
+          <itemPath>../hal/include/hpl_delay.h</itemPath>
+          <itemPath>../hal/include/hpl_dma.h</itemPath>
+          <itemPath>../hal/include/hpl_gpio.h</itemPath>
+          <itemPath>../hal/include/hpl_i2c_m_async.h</itemPath>
+          <itemPath>../hal/include/hpl_i2c_m_sync.h</itemPath>
+          <itemPath>../hal/include/hpl_i2c_s_async.h</itemPath>
+          <itemPath>../hal/include/hpl_i2c_s_sync.h</itemPath>
+          <itemPath>../hal/include/hpl_init.h</itemPath>
+          <itemPath>../hal/include/hpl_irq.h</itemPath>
+          <itemPath>../hal/include/hpl_missing_features.h</itemPath>
+          <itemPath>../hal/include/hpl_reset.h</itemPath>
+          <itemPath>../hal/include/hpl_sleep.h</itemPath>
+          <itemPath>../hal/include/hpl_spi.h</itemPath>
+          <itemPath>../hal/include/hpl_spi_async.h</itemPath>
+          <itemPath>../hal/include/hpl_spi_m_async.h</itemPath>
+          <itemPath>../hal/include/hpl_spi_m_dma.h</itemPath>
+          <itemPath>../hal/include/hpl_spi_m_sync.h</itemPath>
+          <itemPath>../hal/include/hpl_spi_sync.h</itemPath>
+          <itemPath>../hal/include/hpl_spi_s_async.h</itemPath>
+          <itemPath>../hal/include/hpl_spi_s_sync.h</itemPath>
+          <itemPath>../hal/include/hpl_usart.h</itemPath>
+          <itemPath>../hal/include/hpl_usart_async.h</itemPath>
+          <itemPath>../hal/include/hpl_usart_sync.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="utils" displayName="utils" projectFiles="true">
+          <logicalFolder name="include" displayName="include" projectFiles="true">
+            <itemPath>../hal/utils/include/compiler.h</itemPath>
+            <itemPath>../hal/utils/include/err_codes.h</itemPath>
+            <itemPath>../hal/utils/include/events.h</itemPath>
+            <itemPath>../hal/utils/include/parts.h</itemPath>
+            <itemPath>../hal/utils/include/utils.h</itemPath>
+            <itemPath>../hal/utils/include/utils_assert.h</itemPath>
+            <itemPath>../hal/utils/include/utils_event.h</itemPath>
+            <itemPath>../hal/utils/include/utils_increment_macro.h</itemPath>
+            <itemPath>../hal/utils/include/utils_list.h</itemPath>
+            <itemPath>../hal/utils/include/utils_repeat_macro.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="hpl" displayName="hpl" projectFiles="true">
+        <logicalFolder name="core" displayName="core" projectFiles="true">
+          <itemPath>../hpl/core/hpl_core_port.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="crya" displayName="crya" projectFiles="true">
+          <itemPath>../hpl/crya/hpl_crya.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="gclk" displayName="gclk" projectFiles="true">
+          <itemPath>../hpl/gclk/hpl_gclk_base.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="pm" displayName="pm" projectFiles="true">
+          <itemPath>../hpl/pm/hpl_pm_base.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="port" displayName="port" projectFiles="true">
+          <itemPath>../hpl/port/hpl_gpio_base.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="hri" displayName="hri" projectFiles="true">
+        <itemPath>../hri/hri_ac_l11.h</itemPath>
+        <itemPath>../hri/hri_adc_l11.h</itemPath>
+        <itemPath>../hri/hri_ccl_l11.h</itemPath>
+        <itemPath>../hri/hri_dac_l11.h</itemPath>
+        <itemPath>../hri/hri_dmac_l11.h</itemPath>
+        <itemPath>../hri/hri_dsu_l11.h</itemPath>
+        <itemPath>../hri/hri_eic_l11.h</itemPath>
+        <itemPath>../hri/hri_evsys_l11.h</itemPath>
+        <itemPath>../hri/hri_freqm_l11.h</itemPath>
+        <itemPath>../hri/hri_gclk_l11.h</itemPath>
+        <itemPath>../hri/hri_l11.h</itemPath>
+        <itemPath>../hri/hri_mclk_l11.h</itemPath>
+        <itemPath>../hri/hri_nvmctrl_l11.h</itemPath>
+        <itemPath>../hri/hri_opamp_l11.h</itemPath>
+        <itemPath>../hri/hri_osc32kctrl_l11.h</itemPath>
+        <itemPath>../hri/hri_oscctrl_l11.h</itemPath>
+        <itemPath>../hri/hri_pac_l11.h</itemPath>
+        <itemPath>../hri/hri_pm_l11.h</itemPath>
+        <itemPath>../hri/hri_port_l11.h</itemPath>
+        <itemPath>../hri/hri_rstc_l11.h</itemPath>
+        <itemPath>../hri/hri_rtc_l11.h</itemPath>
+        <itemPath>../hri/hri_sercom_l11.h</itemPath>
+        <itemPath>../hri/hri_supc_l11.h</itemPath>
+        <itemPath>../hri/hri_tc_l11.h</itemPath>
+        <itemPath>../hri/hri_tram_l11.h</itemPath>
+        <itemPath>../hri/hri_trng_l11.h</itemPath>
+        <itemPath>../hri/hri_wdt_l11.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Secure_functions"
+                     displayName="Secure_functions"
+                     projectFiles="true">
+        <itemPath>../Secure_functions/SecureAuthentication.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="stdio_redirect"
+                     displayName="stdio_redirect"
+                     projectFiles="true">
+        <itemPath>../stdio_redirect/stdio_io.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="trustzone" displayName="trustzone" projectFiles="true">
+        <itemPath>../trustzone/trustzone_manager.h</itemPath>
+        <itemPath>../trustzone/trustzone_veneer.h</itemPath>
+      </logicalFolder>
+      <itemPath>../atmel_start.h</itemPath>
+      <itemPath>../atmel_start_pins.h</itemPath>
+      <itemPath>../driver_init.h</itemPath>
+      <itemPath>../stdio_start.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+      <logicalFolder name="Device_Startup"
+                     displayName="Device_Startup"
+                     projectFiles="true">
+        <itemPath>../Device_Startup/saml11_nonsecure.ld</itemPath>
+        <itemPath>../Device_Startup/saml11_secure.ld</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="Device_Startup"
+                     displayName="Device_Startup"
+                     projectFiles="true">
+        <itemPath>../Device_Startup/startup_saml11e16a.c</itemPath>
+        <itemPath>../Device_Startup/system_saml11e16a.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="documentation"
+                     displayName="documentation"
+                     projectFiles="true">
+        <itemPath>../documentation/stdio.rst</itemPath>
+        <itemPath>../documentation/trustzone.rst</itemPath>
+      </logicalFolder>
+      <logicalFolder name="examples" displayName="examples" projectFiles="true">
+        <itemPath>../examples/driver_examples.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="hal" displayName="hal" projectFiles="true">
+        <logicalFolder name="documentation"
+                       displayName="documentation"
+                       projectFiles="true">
+          <itemPath>../hal/documentation/i2c_master_sync.rst</itemPath>
+          <itemPath>../hal/documentation/usart_sync.rst</itemPath>
+        </logicalFolder>
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../hal/src/hal_atomic.c</itemPath>
+          <itemPath>../hal/src/hal_delay.c</itemPath>
+          <itemPath>../hal/src/hal_gpio.c</itemPath>
+          <itemPath>../hal/src/hal_i2c_m_sync.c</itemPath>
+          <itemPath>../hal/src/hal_init.c</itemPath>
+          <itemPath>../hal/src/hal_io.c</itemPath>
+          <itemPath>../hal/src/hal_sleep.c</itemPath>
+          <itemPath>../hal/src/hal_usart_sync.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="utils" displayName="utils" projectFiles="true">
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <itemPath>../hal/utils/src/utils_assert.c</itemPath>
+            <itemPath>../hal/utils/src/utils_event.c</itemPath>
+            <itemPath>../hal/utils/src/utils_list.c</itemPath>
+            <itemPath>../hal/utils/src/utils_syscalls.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="hpl" displayName="hpl" projectFiles="true">
+        <logicalFolder name="core" displayName="core" projectFiles="true">
+          <itemPath>../hpl/core/hpl_core_m23_base.c</itemPath>
+          <itemPath>../hpl/core/hpl_init.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="dmac" displayName="dmac" projectFiles="true">
+          <itemPath>../hpl/dmac/hpl_dmac.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="gclk" displayName="gclk" projectFiles="true">
+          <itemPath>../hpl/gclk/hpl_gclk.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="mclk" displayName="mclk" projectFiles="true">
+          <itemPath>../hpl/mclk/hpl_mclk.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="osc32kctrl" displayName="osc32kctrl" projectFiles="true">
+          <itemPath>../hpl/osc32kctrl/hpl_osc32kctrl.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="oscctrl" displayName="oscctrl" projectFiles="true">
+          <itemPath>../hpl/oscctrl/hpl_oscctrl.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="pm" displayName="pm" projectFiles="true">
+          <itemPath>../hpl/pm/hpl_pm.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
+          <itemPath>../hpl/sercom/hpl_sercom.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="Secure_functions"
+                     displayName="Secure_functions"
+                     projectFiles="true">
+        <itemPath>../Secure_functions/SecureAuthentication.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="stdio_redirect"
+                     displayName="stdio_redirect"
+                     projectFiles="true">
+        <logicalFolder name="gcc" displayName="gcc" projectFiles="true">
+          <itemPath>../stdio_redirect/gcc/read.c</itemPath>
+          <itemPath>../stdio_redirect/gcc/write.c</itemPath>
+        </logicalFolder>
+        <itemPath>../stdio_redirect/stdio_io.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="trustzone" displayName="trustzone" projectFiles="true">
+        <itemPath>../trustzone/trustzone_manager.c</itemPath>
+        <itemPath>../trustzone/trustzone_veneer.c</itemPath>
+      </logicalFolder>
+      <itemPath>../atmel_start.c</itemPath>
+      <itemPath>../driver_init.c</itemPath>
+      <itemPath>../main.c</itemPath>
+      <itemPath>../stdio_start.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATSAML11E16A</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>EdbgTool</platformTool>
+        <languageToolchain>ARM</languageToolchain>
+        <languageToolchainVersion>6.3.1</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="SAML11_DFP" vendor="Microchip" version="2.0.33"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+      </packs>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <loadableFile>../../Non-Secure project/Debug/Non-Secure project.hex</loadableFile>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <item path="../Device_Startup/saml11_nonsecure.ld" ex="true" overriding="false">
+        <ARM-AR>
+        </ARM-AR>
+        <ARM-AS>
+        </ARM-AS>
+        <ARM-AS-PRE>
+        </ARM-AS-PRE>
+        <ARM-CPP>
+        </ARM-CPP>
+        <ARM-GCC>
+        </ARM-GCC>
+        <ARM-Global>
+        </ARM-Global>
+        <ARM-LD>
+        </ARM-LD>
+      </item>
+      <item path="../Device_Startup/saml11_secure.ld" ex="true" overriding="false">
+        <ARM-AR>
+        </ARM-AR>
+        <ARM-AS>
+        </ARM-AS>
+        <ARM-AS-PRE>
+        </ARM-AS-PRE>
+        <ARM-CPP>
+        </ARM-CPP>
+        <ARM-GCC>
+        </ARM-GCC>
+        <ARM-Global>
+        </ARM-Global>
+        <ARM-LD>
+        </ARM-LD>
+      </item>
+      <item path="../documentation/stdio.rst" ex="true" overriding="false">
+        <ARM-AR>
+        </ARM-AR>
+        <ARM-AS>
+        </ARM-AS>
+        <ARM-AS-PRE>
+        </ARM-AS-PRE>
+        <ARM-CPP>
+        </ARM-CPP>
+        <ARM-GCC>
+        </ARM-GCC>
+        <ARM-Global>
+        </ARM-Global>
+        <ARM-LD>
+        </ARM-LD>
+      </item>
+      <item path="../documentation/trustzone.rst" ex="true" overriding="false">
+        <ARM-AR>
+        </ARM-AR>
+        <ARM-AS>
+        </ARM-AS>
+        <ARM-AS-PRE>
+        </ARM-AS-PRE>
+        <ARM-CPP>
+        </ARM-CPP>
+        <ARM-GCC>
+        </ARM-GCC>
+        <ARM-Global>
+        </ARM-Global>
+        <ARM-LD>
+        </ARM-LD>
+      </item>
+      <item path="../hal/documentation/i2c_master_sync.rst"
+            ex="true"
+            overriding="false">
+        <ARM-AR>
+        </ARM-AR>
+        <ARM-AS>
+        </ARM-AS>
+        <ARM-AS-PRE>
+        </ARM-AS-PRE>
+        <ARM-CPP>
+        </ARM-CPP>
+        <ARM-GCC>
+        </ARM-GCC>
+        <ARM-Global>
+        </ARM-Global>
+        <ARM-LD>
+        </ARM-LD>
+      </item>
+      <item path="../hal/documentation/usart_sync.rst" ex="true" overriding="false">
+        <ARM-AR>
+        </ARM-AR>
+        <ARM-AS>
+        </ARM-AS>
+        <ARM-AS-PRE>
+        </ARM-AS-PRE>
+        <ARM-CPP>
+        </ARM-CPP>
+        <ARM-GCC>
+        </ARM-GCC>
+        <ARM-Global>
+        </ARM-Global>
+        <ARM-LD>
+        </ARM-LD>
+      </item>
+      <ARM-AR>
+        <property key="archiver-flags" value="-r"/>
+      </ARM-AR>
+      <ARM-AS>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths"
+                  value="../Config;../;../examples;../hal/include;../hal/utils/include;../hpl/core;../hpl/crya;../hpl/dmac;../hpl/gclk;../hpl/mclk;../hpl/osc32kctrl;../hpl/oscctrl;../hpl/pm;../hpl/port;../hpl/sercom;../hri;../trustzone;../stdio_redirect"/>
+        <property key="suppress-warnings" value="false"/>
+      </ARM-AS>
+      <ARM-AS-PRE>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths"
+                  value="../Config;../;../examples;../hal/include;../hal/utils/include;../hpl/core;../hpl/crya;../hpl/dmac;../hpl/gclk;../hpl/mclk;../hpl/osc32kctrl;../hpl/oscctrl;../hpl/pm;../hpl/port;../hpl/sercom;../hri;../trustzone;../stdio_redirect"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="suppress-warnings" value="false"/>
+      </ARM-AS-PRE>
+      <ARM-CPP>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="disable-extra-code-exception" value="true"/>
+        <property key="disable-extra-code-generation" value="true"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="false"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocess-only" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="use-rodata" value="false"/>
+        <property key="verbose" value="false"/>
+      </ARM-CPP>
+      <ARM-GCC>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="extra-include-directories"
+                  value="../Config;../;../examples;../hal/include;../hal/utils/include;../hpl/core;../hpl/crya;../hpl/dmac;../hpl/gclk;../hpl/mclk;../hpl/osc32kctrl;../hpl/oscctrl;../hpl/pm;../hpl/port;../hpl/sercom;../hri;../trustzone;../stdio_redirect"/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value="-Os"/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocessor-macros" value="NDEBUG"/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="verbose" value="false"/>
+        <appendMe value="-std=gnu99 -mcmse"/>
+      </ARM-GCC>
+      <ARM-Global>
+        <property key="bin" value="true"/>
+        <property key="common-include-directories" value=""/>
+        <property key="eep" value="true"/>
+        <property key="hex" value="true"/>
+        <property key="lss" value="true"/>
+        <property key="omit-pack-options" value="true"/>
+        <property key="processor-mode" value="-mthumb"/>
+        <property key="srec" value="true"/>
+        <property key="user-pack-include"
+                  value="C:\Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\SAML11_DFP\1.0.109\include;C:/Program Files (x86)/Atmel/Studio/7.0/Packs/arm/cmsis/5.0.1/CMSIS/Include"/>
+      </ARM-Global>
+      <ARM-LD>
+        <property key="additional-specs" value=""/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value="..\Device_Startup"/>
+        <property key="fast-math" value="false"/>
+        <property key="flash-segment" value=""/>
+        <property key="generate-map-file" value="true"/>
+        <property key="input-libraries" value="libm"/>
+        <property key="no-default-libs" value="false"/>
+        <property key="no-shared-libraries" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="omit-symbol-information" value="false"/>
+        <property key="other-options" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="size-optimized-library" value="true"/>
+        <property key="sram-segment" value=""/>
+        <property key="unsafe-math" value="false"/>
+        <appendMe value="-Wl,--out-implib=libsecure_gateway_veneer.lib -Wl,--cmse-implib -T&quot;../Device_Startup/saml11_secure.ld&quot;"/>
+      </ARM-LD>
+      <EdbgTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value="swd"/>
+        <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-ffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/haing/Desktop/TrustZone_mplab/Secure project/Secure project.X/debug/Release/Secure project_ptg"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="voltagevalue" value=""/>
+      </EdbgTool>
+    </conf>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATSAML11E16A</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>EdbgTool</platformTool>
+        <languageToolchain>ARM</languageToolchain>
+        <languageToolchainVersion>6.3.1</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="SAML11_DFP" vendor="Microchip" version="2.0.33"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+      </packs>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <item path="../Device_Startup/saml11_nonsecure.ld" ex="true" overriding="false">
+        <ARM-AR>
+        </ARM-AR>
+        <ARM-AS>
+        </ARM-AS>
+        <ARM-AS-PRE>
+        </ARM-AS-PRE>
+        <ARM-CPP>
+        </ARM-CPP>
+        <ARM-GCC>
+        </ARM-GCC>
+        <ARM-Global>
+        </ARM-Global>
+        <ARM-LD>
+        </ARM-LD>
+      </item>
+      <item path="../Device_Startup/saml11_secure.ld" ex="true" overriding="false">
+        <ARM-AR>
+        </ARM-AR>
+        <ARM-AS>
+        </ARM-AS>
+        <ARM-AS-PRE>
+        </ARM-AS-PRE>
+        <ARM-CPP>
+        </ARM-CPP>
+        <ARM-GCC>
+        </ARM-GCC>
+        <ARM-Global>
+        </ARM-Global>
+        <ARM-LD>
+        </ARM-LD>
+      </item>
+      <item path="../documentation/stdio.rst" ex="true" overriding="false">
+        <ARM-AR>
+        </ARM-AR>
+        <ARM-AS>
+        </ARM-AS>
+        <ARM-AS-PRE>
+        </ARM-AS-PRE>
+        <ARM-CPP>
+        </ARM-CPP>
+        <ARM-GCC>
+        </ARM-GCC>
+        <ARM-Global>
+        </ARM-Global>
+        <ARM-LD>
+        </ARM-LD>
+      </item>
+      <item path="../documentation/trustzone.rst" ex="true" overriding="false">
+        <ARM-AR>
+        </ARM-AR>
+        <ARM-AS>
+        </ARM-AS>
+        <ARM-AS-PRE>
+        </ARM-AS-PRE>
+        <ARM-CPP>
+        </ARM-CPP>
+        <ARM-GCC>
+        </ARM-GCC>
+        <ARM-Global>
+        </ARM-Global>
+        <ARM-LD>
+        </ARM-LD>
+      </item>
+      <item path="../hal/documentation/i2c_master_sync.rst"
+            ex="true"
+            overriding="false">
+        <ARM-AR>
+        </ARM-AR>
+        <ARM-AS>
+        </ARM-AS>
+        <ARM-AS-PRE>
+        </ARM-AS-PRE>
+        <ARM-CPP>
+        </ARM-CPP>
+        <ARM-GCC>
+        </ARM-GCC>
+        <ARM-Global>
+        </ARM-Global>
+        <ARM-LD>
+        </ARM-LD>
+      </item>
+      <item path="../hal/documentation/usart_sync.rst" ex="true" overriding="false">
+        <ARM-AR>
+        </ARM-AR>
+        <ARM-AS>
+        </ARM-AS>
+        <ARM-AS-PRE>
+        </ARM-AS-PRE>
+        <ARM-CPP>
+        </ARM-CPP>
+        <ARM-GCC>
+        </ARM-GCC>
+        <ARM-Global>
+        </ARM-Global>
+        <ARM-LD>
+        </ARM-LD>
+      </item>
+      <ARM-AR>
+        <property key="archiver-flags" value="-r"/>
+      </ARM-AR>
+      <ARM-AS>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths"
+                  value="../Config;../;../examples;../hal/include;../hal/utils/include;../hpl/core;../hpl/crya;../hpl/dmac;../hpl/gclk;../hpl/mclk;../hpl/osc32kctrl;../hpl/oscctrl;../hpl/pm;../hpl/port;../hpl/sercom;../hri;../trustzone;../stdio_redirect"/>
+        <property key="suppress-warnings" value="false"/>
+      </ARM-AS>
+      <ARM-AS-PRE>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths"
+                  value="../Config;../;../examples;../hal/include;../hal/utils/include;../hpl/core;../hpl/crya;../hpl/dmac;../hpl/gclk;../hpl/mclk;../hpl/osc32kctrl;../hpl/oscctrl;../hpl/pm;../hpl/port;../hpl/sercom;../hri;../trustzone;../stdio_redirect"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="suppress-warnings" value="false"/>
+      </ARM-AS-PRE>
+      <ARM-CPP>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="disable-extra-code-exception" value="true"/>
+        <property key="disable-extra-code-generation" value="true"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="false"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocess-only" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="use-rodata" value="false"/>
+        <property key="verbose" value="false"/>
+      </ARM-CPP>
+      <ARM-GCC>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="extra-include-directories"
+                  value="../lib;../lib/atcacert;../lib/basic;../lib/crypto;../lib/hal;../lib/host;../Config;../;../examples;../hal/include;../hal/utils/include;../hpl/core;../hpl/crya;../hpl/dmac;../hpl/gclk;../hpl/mclk;../hpl/osc32kctrl;../hpl/oscctrl;../hpl/pm;../hpl/port;../hpl/sercom;../hri;../trustzone;../stdio_redirect"/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocessor-macros" value="DEBUG;ATCA_HAL_I2C"/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="verbose" value="false"/>
+        <appendMe value="-std=gnu99 -mcmse -g3"/>
+      </ARM-GCC>
+      <ARM-Global>
+        <property key="bin" value="true"/>
+        <property key="common-include-directories" value=""/>
+        <property key="eep" value="true"/>
+        <property key="hex" value="true"/>
+        <property key="lss" value="true"/>
+        <property key="omit-pack-options" value="true"/>
+        <property key="processor-mode" value="-mthumb"/>
+        <property key="srec" value="true"/>
+        <property key="user-pack-include"
+                  value="C:\Program Files (x86)\Atmel\Studio\7.0\Packs\Atmel\SAML11_DFP\1.0.109\include;C:/Program Files (x86)/Atmel/Studio/7.0/Packs/arm/cmsis/5.0.1/CMSIS/Include"/>
+      </ARM-Global>
+      <ARM-LD>
+        <property key="additional-specs" value=""/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value="..\Device_Startup"/>
+        <property key="fast-math" value="false"/>
+        <property key="flash-segment" value=""/>
+        <property key="generate-map-file" value="true"/>
+        <property key="input-libraries" value="libm"/>
+        <property key="no-default-libs" value="false"/>
+        <property key="no-shared-libraries" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="omit-symbol-information" value="false"/>
+        <property key="other-options" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="size-optimized-library" value="true"/>
+        <property key="sram-segment" value=""/>
+        <property key="unsafe-math" value="false"/>
+        <appendMe value="-Wl,--out-implib=libsecure_gateway_veneer.lib -Wl,--cmse-implib -T&quot;../Device_Startup/saml11_secure.ld&quot;"/>
+      </ARM-LD>
+      <EdbgTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value="swd"/>
+        <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-ffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/haing/Desktop/TrustZone_mplab/Secure project/Secure project.X/debug/Debug/Secure project_ptg"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="voltagevalue" value=""/>
+      </EdbgTool>
+    </conf>
+  </confs>
+</configurationDescriptor>
